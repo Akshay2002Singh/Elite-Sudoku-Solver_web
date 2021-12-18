@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Solver</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="heading">
+        Elite Sudoku Solver
+    </div>
+    <div class="box">
+        <form action="/" id="sudoku_form">
+            <input type="number" id="no1" placeholder="r=1 and c=1">
+            <input type="number" id="no2" placeholder="r=1 and c=1">
+            <input type="number" id="no3" placeholder="r=1 and c=1">
+            <input type="number" id="no4" placeholder="r=1 and c=1">
+            <input type="number" id="no5" placeholder="r=1 and c=1">
+            <input type="number" id="no6" placeholder="r=1 and c=1">
+            <input type="number" id="no7" placeholder="r=1 and c=1">
+            <input type="number" id="no8" placeholder="r=1 and c=1">
+            <input type="number" id="no9" placeholder="r=1 and c=1">
+            <input type="number" id="no10" placeholder="r=1 and c=1">
+            <input type="number" id="no11" placeholder="r=1 and c=1">
+            <input type="number" id="no12" placeholder="r=1 and c=1">
+            <input type="number" id="no13" placeholder="r=1 and c=1">
+            <input type="number" id="no14" placeholder="r=1 and c=1">
+            <input type="number" id="no15" placeholder="r=1 and c=1">
+            <input type="number" id="no16" placeholder="r=1 and c=1">
+            <input type="number" id="no17" placeholder="r=1 and c=1">
+            <input type="number" id="no18" placeholder="r=1 and c=1">
+            <input type="number" id="no19" placeholder="r=1 and c=1">
+            <input type="number" id="no20" placeholder="r=1 and c=1">
+            <input type="number" id="no21" placeholder="r=1 and c=1">
+            <input type="number" id="no22" placeholder="r=1 and c=1">
+            <input type="number" id="no23" placeholder="r=1 and c=1">
+            <input type="number" id="no24" placeholder="r=1 and c=1">
+            <input type="number" id="no25" placeholder="r=1 and c=1">
+            <input type="number" id="no26" placeholder="r=1 and c=1">
+            <input type="number" id="no27" placeholder="r=1 and c=1">
+            <input type="number" id="no28" placeholder="r=1 and c=1">
+            <input type="number" id="no29" placeholder="r=1 and c=1">
+            <input type="number" id="no30" placeholder="r=1 and c=1">
+            <input type="number" id="no31" placeholder="r=1 and c=1">
+            <input type="number" id="no32" placeholder="r=1 and c=1">
+            <input type="number" id="no33" placeholder="r=1 and c=1">
+            <input type="number" id="no34" placeholder="r=1 and c=1">
+            <input type="number" id="no35" placeholder="r=1 and c=1">
+            <input type="number" id="no36" placeholder="r=1 and c=1">
+            <input type="number" id="no37" placeholder="r=1 and c=1">
+            <input type="number" id="no38" placeholder="r=1 and c=1">
+            <input type="number" id="no39" placeholder="r=1 and c=1">
+            <input type="number" id="no40" placeholder="r=1 and c=1">
+            <input type="number" id="no41" placeholder="r=1 and c=1">
+            <input type="number" id="no42" placeholder="r=1 and c=1">
+            <input type="number" id="no43" placeholder="r=1 and c=1">
+            <input type="number" id="no44" placeholder="r=1 and c=1">
+            <input type="number" id="no45" placeholder="r=1 and c=1">
+            <input type="number" id="no46" placeholder="r=1 and c=1">
+            <input type="number" id="no47" placeholder="r=1 and c=1">
+            <input type="number" id="no48" placeholder="r=1 and c=1">
+            <input type="number" id="no49" placeholder="r=1 and c=1">
+            <input type="number" id="no50" placeholder="r=1 and c=1">
+            <input type="number" id="no51" placeholder="r=1 and c=1">
+            <input type="number" id="no52" placeholder="r=1 and c=1">
+            <input type="number" id="no53" placeholder="r=1 and c=1">
+            <input type="number" id="no54" placeholder="r=1 and c=1">
+            <input type="number" id="no55" placeholder="r=1 and c=1">
+            <input type="number" id="no56" placeholder="r=1 and c=1">
+            <input type="number" id="no57" placeholder="r=1 and c=1">
+            <input type="number" id="no58" placeholder="r=1 and c=1">
+            <input type="number" id="no59" placeholder="r=1 and c=1">
+            <input type="number" id="no60" placeholder="r=1 and c=1">
+            <input type="number" id="no61" placeholder="r=1 and c=1">
+            <input type="number" id="no62" placeholder="r=1 and c=1">
+            <input type="number" id="no63" placeholder="r=1 and c=1">
+            <input type="number" id="no64" placeholder="r=1 and c=1">
+            <input type="number" id="no65" placeholder="r=1 and c=1">
+            <input type="number" id="no66" placeholder="r=1 and c=1">
+            <input type="number" id="no67" placeholder="r=1 and c=1">
+            <input type="number" id="no68" placeholder="r=1 and c=1">
+            <input type="number" id="no69" placeholder="r=1 and c=1">
+            <input type="number" id="no70" placeholder="r=1 and c=1">
+            <input type="number" id="no71" placeholder="r=1 and c=1">
+            <input type="number" id="no72" placeholder="r=1 and c=1">
+            <input type="number" id="no73" placeholder="r=1 and c=1">
+            <input type="number" id="no74" placeholder="r=1 and c=1">
+            <input type="number" id="no75" placeholder="r=1 and c=1">
+            <input type="number" id="no76" placeholder="r=1 and c=1">
+            <input type="number" id="no77" placeholder="r=1 and c=1">
+            <input type="number" id="no78" placeholder="r=1 and c=1">
+            <input type="number" id="no79" placeholder="r=1 and c=1">
+            <input type="number" id="no80" placeholder="r=1 and c=1">
+            <input type="number" id="no81" placeholder="r=1 and c=1">
+        </form>
+        <div id="btn">
+            <button id="Solve_sukoku">
+                
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
